@@ -7,7 +7,7 @@ renderButtons();
 function searchGif(animal) {
 
 
-    var url = "http://api.giphy.com/v1/gifs/search?q=" +
+    var url = "https://api.giphy.com/v1/gifs/search?q=" +
         animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
@@ -68,7 +68,7 @@ function searchGif(animal) {
 
 
                 $(this).attr("src", stll);
-                console.clog("setting source to still:", stll);
+                console.log("setting source to still:", stll);
             }
         });
     });
