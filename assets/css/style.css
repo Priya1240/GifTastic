@@ -1,0 +1,52 @@
+/*body {
+    margin-top: 15px;
+}*/
+
+body {
+    background-image: url("../images/one.png");
+}
+
+.pull-left {
+    margin: 0 20px 0 0;
+}
+
+.animal {
+    margin: 0px 10px 15px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+
+#add-animal {
+    width: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #1ABC9C;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#animal-input {
+    width: 200px;
+    font-size: 20px;
+
+}
+
+label {
+    font-size: 20px;
+}
+
+.pic,
+.header {
+    margin-bottom: 20px;
+}
+
+.pic {
+    border: 3px solid #1ABC9C;
+}
+
+p {
+    font-weight: bold;
+}
